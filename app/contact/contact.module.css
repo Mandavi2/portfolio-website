@@ -1,0 +1,73 @@
+.contactContainer{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 10%;
+}
+.contactOptions{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.contactOption{
+    background: var(--color-secondary);
+    color: white;
+    padding: 1.2rem;
+    opacity: 0;
+    animation: identifier 1s ease-in forwards;
+}
+@keyframes identifier {
+    to{
+        opacity: 1;
+    }
+}
+.contactOption .conTitle{
+    color: #fff;
+    font-weight: 600;
+}
+.contactOption .consubTitle{
+    color: #eee;
+    font-weight: 500;
+    margin: 0.3rem 0;
+}
+.contactOption a{
+    color: #dbdbdb;
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
+}
+.contactOption a:hover{
+    color: #eee;
+}
+.contactIcon{
+    font-size: 1.4rem;
+    margin-bottom: 0.2rem;
+    color: #fff;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    opacity: 0;
+    animation: identifier 1s ease-in forwards;
+}
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border: none;
+  background-color: #fff;
+  font-size: 1rem; 
+  resize: none;
+}
+.formHeading{
+    color: var(--color-primary);
+}
+.formContainer span{
+    display: block;
+    margin: 0.8rem 0;
+}
+@media screen and (max-width:1024px){
+    .contactContainer{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}

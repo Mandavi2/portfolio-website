@@ -1,0 +1,47 @@
+
+.toolsWrapper{
+    padding-block: 1rem;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    --gap: 2rem;
+    gap: var(--gap);
+}
+.toolsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: var(--gap);
+    flex-shrink: 0;
+    min-width: 100%;
+    animation: scroll 20s linear infinite;
+}
+.toolsWrapper p{
+    color: var(--color-gray-500);
+}
+.toolsSubTitle{
+    color: var(--color-gray-500);
+}
+
+@keyframes scroll {
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.toolsBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    gap: 0.5rem;
+    background: var(--color-gray-0);
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.toolsIcon{
+    color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
