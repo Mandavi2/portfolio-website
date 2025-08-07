@@ -1,15 +1,12 @@
-import Image1 from '../assets/project-news.png'
-import Image2 from '../assets/shopping-cart.png'
-import Image3 from '../assets/quotes-app.png'
-import Image4 from '../assets/travel-website.png'
-import Image5 from '../assets/memory-game.png'
-import Image6 from '../assets/translator-app.png'
-import Image7 from '../assets/product-card.png'
-import Image8 from '../assets/notes-app.png'
-import Image9 from '../assets/blog-website.png'
-import Image10 from '../assets/pagination.png'
-import Image11 from '../assets/agk-agro.png'
-import Image12 from '../assets/drag-drop.png'
+import Image1 from '../../assets/news-app.png'
+import Image2 from '../../assets/shopping-cart.png'
+import Image3 from '../../assets/quotes-app.png'
+import Image4 from '../../assets/travel-website.png'
+import Image5 from '../../assets/memory-game.png'
+import Image6 from '../../assets/translator-app.png'
+import Image7 from '../../assets/product-card.png'
+import Image8 from '../../assets/notes-app.png'
+import Image9 from '../../assets/agk-agro.png'
 
 export const data = [
     {
@@ -88,36 +85,10 @@ export const data = [
         id:9,
         category: 'next',
         image: Image9,
-        title: "Blog Website",
-        desc: "This is Blog website built using Next.js. Here, I have implemented Dynamic routing to display various blogs. The landing page consits of various blog cards on clicking which user can navigate to blog page.",
-        demo:'https://my-blog-app-pqjy-5e3bsz158-mandavis-projects-839a3b6e.vercel.app/',
-        github:'https://github.com/Mandavi2/my-blog-app.git',
-    },
-    {
-        id:10,
-        category: 'react',
-        image: Image10,
-        title: "Pagination",
-        desc: "A pagination component built using React.js that enables users to navigate through large sets of data efficiently. It dynamically updates content based on the selected page, improving both performance and user experience.",
-        demo:'https://pagination-in-react-awl3.vercel.app/',
-        github:'https://github.com/Mandavi2/pagination-in-react.git',
-    },
-    {
-        id:11,
-        category: 'next',
-        image: Image11,
         title: "AGK AGRO (Client)",
         desc: "This is a website that I have built for my client AGK.AGRO PVT LTD which is an import-export business. Built on Next.js with functionality such as form submission directly to mail, dynamic routing for products, video component etc.",
         demo:'https://pagination-in-react-awl3.vercel.app/',
         github:'https://github.com/Mandavi2/pagination-in-react.git',
     },
-    {
-        id:12,
-        category: 'react',
-        image: Image12,
-        title: "Drag And Drop",
-        desc: "A drag and drop component built using React.js allows users to intuitively move items within or between lists. It enhances interactivity and supports smooth reordering or organization of elements in a user-friendly way.",
-        demo:'https://dragndrop-nmg5.vercel.app/',
-        github:'https://github.com/Mandavi2/dragndrop.git',
-    }
+   
 ]

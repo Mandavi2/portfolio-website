@@ -28,11 +28,11 @@ import Image from "next/image";
 
 const Tools = () => {
   return (
-    <section className="container">
-        <h3>Tools & Techniques</h3>
-        <p className={styles.toolsSubTitle}>These are some of the tools and techniques that I know.</p>
+    <section className={`container ${styles.toolsSection}`}>
+        <h3 data-aos="fade-up">Tools & Techniques</h3>
+        <p className={styles.toolsSubTitle} data-aos="fade-up">These are some of the tools and techniques that I know.</p>
         <div className={styles.toolsWrapper}>
-           <ul className={styles.toolsContainer} aria-hidden="true">
+           <ul className={styles.toolsContainer} aria-hidden="true" data-aos="fade-in">
             {
                 data.map((item) =>
                     <li key={item.id} className={styles.toolsBox}>

@@ -6,11 +6,19 @@
 .image{
     height: 35rem;
     overflow: hidden;
-    object-fit: fill;
+    object-fit: cover;
+    background-color: var(--color-secondary);
     display: grid;
     place-items: center;
     opacity: 0;
     animation: identifier 2s ease forwards;
+}
+.potrait{
+    width: 75%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 
 @keyframes identifier {

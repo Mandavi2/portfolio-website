@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './about.module.css'
 import SectionHeader from '../components/section-header/SectionHeader'
 import Image from 'next/image'
-import AboutImage from '../assets/about.jpg'
+import AboutImage from '../assets/honey.jpeg'
 
 const page = () => {
   return (
@@ -10,7 +10,7 @@ const page = () => {
       <SectionHeader title="About Me" subTitle="Who I am and What I do"/>
       <div className={`container ${styles.aboutContainer}`}>
          <article className={styles.image}>
-            <Image src={AboutImage} alt='about_potrait'/>
+            <Image src={AboutImage} alt='about_potrait' className={styles.potrait}/>
          </article>
          <article className={styles.aboutContent}>
             <h4>My name is Mandavi and I am a Web Developer</h4>

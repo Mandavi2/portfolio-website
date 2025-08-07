@@ -12,8 +12,8 @@ import Image from 'next/image';
 const Testimonials = () => {
   return (
     <section className={styles.section}>
-         <h3>Testimonials</h3>
-         <p>Check out what my clients and collegues say about me</p>
+         <h3 data-aos="fade-up">Testimonials</h3>
+         <p data-aos="fade-up">Check out what my clients and collegues say about me</p>
 
          <Swiper
       // install Swiper modules
@@ -21,6 +21,7 @@ const Testimonials = () => {
       spaceBetween={50}
       slidesPerView={1}
       pagination={{ clickable: true }}
+      data-aos="fade-up"
     >
       
       {
