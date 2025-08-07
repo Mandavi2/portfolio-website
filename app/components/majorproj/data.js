@@ -1,4 +1,4 @@
-import Image1 from '../../assets/news-app.png'
+import Image1 from '../../assets/News-app.png'
 import Image2 from '../../assets/shopping-cart.png'
 import Image3 from '../../assets/quotes-app.png'
 import Image4 from '../../assets/travel-website.png'
