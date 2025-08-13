@@ -22,7 +22,7 @@ const Header = () => {
         <Image src={header_image} alt='profile_image'/>
         </div>
         <h2 data-aos="fade-up">Mandavi Sahay</h2>
-        <p data-aos="fade-up">I am a Web Developer with 2+ years of experience. I have proficiency in developing websites using Next.js, React.js and JavaScript!</p>
+        <p data-aos="fade-up">I am a Web Developer with 4+ years of experience. I have proficiency in developing websites using Next.js, React.js and JavaScript!</p>
         <div className={styles.headerCta}>
            <Link href="/portfolio" className='btn' data-aos="fade-right">Projects</Link>
            <Link href="/contact" className='btn primary' data-aos="fade-right">Hire me</Link>
